@@ -6,11 +6,11 @@ on:
       account:
         description: 'Number of Accounts to be generated (default = 0)'
         required: false
-        default: '1'
+        default: '0'
       key:
         description: 'Number of Keys to be generated (default = 1)'
         required: false
-        default: '2'
+        default: '1'
       mail:
         description: 'Choose the mail provider to generate license'
         required: true
